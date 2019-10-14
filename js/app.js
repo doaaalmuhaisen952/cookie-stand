@@ -20,7 +20,20 @@ let Seattle = {
         }
         return hours;
     }
+
 }
+var header1 = document.createElement("h2");
+header1.textContent = "Salmon Cookies for Seattle";
+var contentArea = document.getElementById('list');
+contentArea.appendChild(header1);
+var paragraph = document.createElement('p');
+var contentArea = document.getElementById('list');
+contentArea.appendChild(paragraph);
+var ul = document.createElement('ul');
+paragraph.appendChild(ul);
+var li = document.createElement('li');
+li.textContent = Seattle.cookiesPurchased();
+paragraph.appendChild(li);
 let Tokyo = {
     minCustomersPerHour: 3,
     maxCustomersPerHour: 24,
@@ -43,6 +56,18 @@ let Tokyo = {
         return hours;
     }
 }
+var header1 = document.createElement("h2");
+header1.textContent = "Salmon Cookies for tokyo";
+var contentArea = document.getElementById('list');
+contentArea.appendChild(header1);
+var paragraph = document.createElement('p');
+var contentArea = document.getElementById('list');
+contentArea.appendChild(paragraph);
+var ul = document.createElement('ul');
+paragraph.appendChild(ul);
+var li = document.createElement('li');
+li.textContent = Tokyo.cookiesPurchased();
+paragraph.appendChild(li);
 let Dubai = {
     minCustomersPerHour: 11,
     maxCustomersPerHour: 38,
@@ -64,6 +89,18 @@ let Dubai = {
         return hours;
     }
 }
+var header1 = document.createElement("h2");
+header1.textContent = "Salmon Cookies for Dubai";
+var contentArea = document.getElementById('list');
+contentArea.appendChild(header1);
+var paragraph = document.createElement('p');
+var contentArea = document.getElementById('list');
+contentArea.appendChild(paragraph);
+var ul = document.createElement('ul');
+paragraph.appendChild(ul);
+var li = document.createElement('li');
+li.textContent = Dubai.cookiesPurchased();
+paragraph.appendChild(li);
 let Paris = {
     minCustomersPerHour: 20,
     maxCustomersPerHour: 38,
@@ -85,6 +122,18 @@ let Paris = {
         return hours;
     }
 }
+var header1 = document.createElement("h2");
+header1.textContent = "Salmon Cookies for Paris";
+var contentArea = document.getElementById('list');
+contentArea.appendChild(header1);
+var paragraph = document.createElement('p');
+var contentArea = document.getElementById('list');
+contentArea.appendChild(paragraph);
+var ul = document.createElement('ul');
+paragraph.appendChild(ul);
+var li = document.createElement('li');
+li.textContent = Paris.cookiesPurchased();
+paragraph.appendChild(li);
 let Lima = {
     minCustomersPerHour: 2,
     maxCustomersPerHour: 16,
@@ -106,3 +155,15 @@ let Lima = {
         return hours;
     }
 }
+var header1 = document.createElement("h2");
+header1.textContent = "Salmon Cookies for Lima";
+var contentArea = document.getElementById('list');
+contentArea.appendChild(header1);
+var paragraph = document.createElement('p');
+var contentArea = document.getElementById('list');
+contentArea.appendChild(paragraph);
+var ul = document.createElement('ul');
+paragraph.appendChild(ul);
+var li = document.createElement('li');
+li.textContent = Lima.cookiesPurchased();
+paragraph.appendChild(li);
