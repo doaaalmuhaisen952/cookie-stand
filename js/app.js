@@ -110,5 +110,5 @@ for (let j = 0; j < arrayall.length; j++) {
      document.write("</li>");
  }
  document.write("<li>", "Total : ", count, " Cookies.");
- document.write("</ul>");
+ document.write("  </ul>");
 }
