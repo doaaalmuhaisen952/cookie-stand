@@ -1,3 +1,59 @@
+// var range = this.MaX -this.Min;
+// var randomCount = Math.random() * range + this.Min;
+
+
+// shop.prototype.geeratHourlySales =function(){
+//   for (var i = 0; i< Time.length ; i++ ){
+//    var cookiesSoldThisTime = Math.ceil(this.gitRandomCustamerCount) * this.AVg
+//   this.hourlySales.push(cookiesSoldThisTime);
+//   this.totalCookies += cookiesSoldThisTime;
+
+//  }
+// }
+// shop.prototype.random = function(){
+ 
+//    var container = document.getElement('h2');
+   
+//    var h2 = document.createElement(h2);
+//    container.appendChild(h2);
+//    h2.textContent =  this.location;
+//    var ul = document.createElement('ul');
+//    container.appendChild(ul);
+ 
+//    for (var i = 0; i < Time.length; i++) {
+//       var li = document.createElement('li') ;
+//      ul.appendChild(li);
+
+//      var sales = Time[i] + ' : ' + this.hourlySales[i] + ' cookies ';
+//      li.textContent = sales;
+
+//    }
+//    var li = document.createElement('li')
+//    li.textContent = 'Total ' + this.totalSale + ' cookies ';
+//    ul.appendChild(li);
+ 
+ 
+//  };
+  
+//  var Seattle = new shop('Seattle', 2, 16, 4.6);
+//  // var Tokyo = new Store('Tokyo', 3, 24, 1.2);
+//  var Dubai = new shop('Dubai' , 11, 38, 3.7);
+//  // var Paris = new Store('Paris', 20, 38, 2.3);
+//  // var Lima = new Store('Lima', 23, 65, 6.3);
+//  var Cities = [Seattle ,Dubai ] ;
+//  for (var i= 0 ; i< Cities.length ;i++ ){
+//    var Cities = Cities[i];
+//   // Cities.geeratHourlySales(); 
+//    Cities.render();
+    
+//  }
+
+
+
+
+
+
+
 'use strict';
 var hours = ['6:00 am', '7:00 am', '8:00 am', '9:00 am', '10:00 am', '11:00 am', '12:00 pm', '1:00 pm', '2:00 pm', '3:00 pm', '4:00 pm', '5:00 pm', '6:00 pm', '7:00 pm'];
 var storeLocations = [];
